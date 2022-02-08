@@ -51,4 +51,23 @@ A: Người dùng tương tác mới máy tính chủ yếu qua bàn phím. Và 
 
 Q: Tiến độ tới đâu rồi Tuộc?
 
-A: Đang dần hoàn thiện baseline đó bạn. Xem phân `README.md` và tài liệu trong thư mục `docs` của từng dự án để biết thêm chi tiết.
+A: Baseline đã tạm đủ hoàn thiện để triển khai ứng dụng. Xem phân `README.md` và tài liệu trong thư mục `docs` của từng `repo` để biết thêm chi tiết.
+
+
+- - -
+
+Q: Tôi có thể tham gia được không và nên bắt đầu từ đâu?
+
+A: Welcome bạn. Ai cũng có thể tham gia được, không cần kiến thức lập trình hệ thống cũng như NLP. Bởi:
+
+1/ Ngôn ngữ lập trình Tuộc lựa chọn là https://ziglang.org/documentation/master nó vô cùng đơn giản và chạy trên nhiều nền tảng, cài đặt chỉ cần download 1 file zip về là đủ.
+
+2/ Các giải thuật của baseline là kinh điển và dễ hiểu và cài đặt rõ ràng, tối ưu trong sáng để code trở nên dễ hiểu, dễ bắt lỗi và dễ độ.
+
+3/ Bạn thích làm ứng dụng có thể vọc ngay https://github.com/telexyz/fingers là bộ gõ telex trên nền javascript và web assembly.
+
+4/ Bạn nào mới biết NLP và muốn thứ gì đó thật đơn giản nhưng vẫn ✨ _fancy_ ✨ thì mời cùng làm https://github.com/telexyz/embed, bạn sẽ hiểu thế nào là vector space model, re-distributed representation, word embedding, hiểu cách cài đặp một neural network đơn giản để tại ra word vectors từ text corpus trong chưa tới 200 dòng mã lệnh cộng thêm code comments và tài liệu đọc hiểu đi kèm không thể đầy đủ hơn. Dựa trên word embedding có thể mở ra rất nhiều biến thể (topic embedding, document embedding ...) và ứng dụng vào nhiều bài toán khác nhau. Đây là một baseline rất cool and fancy mà ai cũng có thể vọc được.
+
+5/ Bạn nào đã có kinh nghiệm lập trình hệ thống thì cùng Tuộc vọc https://github.com/telexyz/engine, là phần nền tảng nhất và có nhiều mẹo tối ưu khi triển khai các giải thuật kinh điển cho tiếng Việt như bộ tách token cho âm tiết tiếng Việt và out-of-âm-tiết-tiếng-Việt (sử dụng sub-word). Làm thế nào chỉ cần `15-bits` là đủ để biểu diễn cho toàn bộ vài GB corpus đầu vào? Khi cần ép số lượng tokens xuống để làm nhẹ đi mô hình ngôn ngữ thì ép kiểu gì? Với `16-bits` chúng ta có thể và nên định danh những gì của tiếng Việt (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn và vẫn tiết kiệm tối đa bộ nhớ và CPU? Rồi với âm tiết là thành phần chủ đạo, nên cài đặt n-gram language model và làm inverted indexing để làm full-text-searh như thế nào? ... phần này hơi nhức đầu tí nhưng mà vui!
+
+5/ Bạn nào đã pro về NLP và thích Deep Learning thì xin mời vọc https://github.com/telexyz/rnnlm, mô hình ngôn ngữ sử dụng mạng nơ ron hồi quy. Bạn có thể cài đặt lại `rnnlm` như là một bước cải tiến của `word2vec`, rồi cài đặt tiếp biến thể LSTM của RNN, rồi tới Transformer ... Phần này Tuộc chưa làm tới, để ở đây để có hình dung tổng quát. Khi làm phần này thì một câu hỏi quan trọng cần đặt ra là __"Deep tới đâu là đủ?"__. Ví dụ một rnnlm đơn giản là đủ cho hậu xử lý của tác vụ tách từ. Với một language model có độ ứng dụng cao thì có lẽ LSTM là đủ. Còn để chạy đua lên mặt trăng thì xin mời dùng Transformer. Transformer của Deep Learning chứ không phải robot biến hình trên tivi các bạn ạ. Phần này đang rất hot và cần phần cứng chuyên dụng (GPU, TPU(. Liệu với phần cứng bình dân ta có thể chọi được với các phần cứng chuyên dụng hoặc siêu máy tính không?
