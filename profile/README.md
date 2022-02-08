@@ -24,7 +24,7 @@ A: Muốn có kết quả ngay và ra được ứng dụng ăn liền thì bạ
 
 Q: Mục tiêu của dự án là gì?
 
-A: Không đuổi theo kết quả tốt nhất mà theo đuổi hiệu năng tốt nhất nghĩa là công sức lập trình và năng lượng phần cứng khi chạy giải thuật chia cho độ chính xác. Vì nếu bỏ ra 1 tháng trời để cài đặt và vài ngàn đô để mua phần cứng để chạy giải thuật mới và độ chính xác tăng lên 5-10% thì có lẽ chưa thỏa đáng, trừ trường hợp mục tiêu tối thượng của bạn là độ chính xác.
+A: Không đuổi theo kết quả tốt nhất mà theo đuổi hiệu năng tốt nhất (độ chính xác / công sức lập trình và độ tốn kém của phần cứng khi chạy giải thuật). Vì nếu bỏ ra 1 tháng trời để cài đặt hoặc bỏ vài ngàn đô để mua phần cứng về chạy giải thuật mới để độ chính xác tăng lên 5-10% thì có lẽ chưa thỏa đáng, trừ trường hợp mục tiêu tối thượng của bạn là độ chính xác.
 
 Trong quá trình triển khai ứng dụng có nhiều bài toán con phát sinh hay đơn giản là customize cho từng domain. Nếu giải thuật khó hiểu, cài đặt phức tạp, chạy trên phần cứng thông thường mất nhiều thời gian thì sẽ gây ra nhiều cản trở cho quá trình customize hoặc kết hợp dùng những giải thuật những model đang có để giải quyết bài toán cón.
 
@@ -36,7 +36,7 @@ Q: Baseline đủ tốt là gì?
 
 Baseline là các giải thuật dễ hiểu và cách cài đặt đơn giản nhưng kết quả đủ tốt và hiệu năng cao. Vì dễ hiểu, đơn giản, và hiệu năng cao nên có thể chỉnh sửa, cải tiến, chạy thử nghiệm liên tục mà không phải chờ đợi hàng giờ, hàng ngày, hàng năm hoặc vò đầu bứt tai vì không hiểu đoạn code này để làm cái gì và chỗ này nên chỉnh sửa như thế nào.
 
-Baseline là một nền móng rất quan trọng để phát triển dự án. Sau khi đã kết thúc quá trình thử nghiệm có thể chúng ta không dùng baseline khi triển khai ứng dụng như baseline vẫn có giá trị là dấu mốc để so sánh xem chúng ta đã đi được bao xa và liệu bỏ ra công sức và đầu tư phần cứng để cài đặt / triển khai một giải thuật mới so với baseline và các giải thuật đã được cài đặt có đáng hay không?
+Baseline là một nền móng rất quan trọng để phát triển dự án. Sau khi đã kết thúc quá trình thử nghiệm có thể chúng ta không dùng baseline khi triển khai ứng dụng nhưng baseline vẫn có giá trị là dấu mốc để so sánh xem chúng ta đã đi được bao xa và liệu bỏ ra thêm công sức và tiền bạc (thuê hay mua phần cứng) để cài đặt và triển khai một giải thuật mới có đáng hay không?
 
 Baseline là để trả lời câu hỏi CÓ ĐÁNG HAY KHÔNG đó!
 
