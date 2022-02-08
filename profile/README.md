@@ -36,9 +36,9 @@ Q: Baseline đủ tốt là gì?
 
 Baseline là các giải thuật dễ hiểu và cách cài đặt đơn giản nhưng kết quả đủ tốt và hiệu năng cao. Vì dễ hiểu, đơn giản, và hiệu năng cao nên có thể chỉnh sửa, cải tiến, chạy thử nghiệm liên tục mà không phải chờ đợi hàng giờ, hàng ngày, hàng năm hoặc vò đầu bứt tai vì không hiểu đoạn code này để làm cái gì và chỗ này nên chỉnh sửa như thế nào.
 
-Baseline là một nền móng rất quan trọng để phát triển dự án. Sau khi đã kết thúc quá trình thử nghiệm có thể chúng ta không dùng baseline khi triển khai ứng dụng nhưng baseline vẫn có giá trị là dấu mốc để so sánh xem chúng ta đã đi được bao xa và liệu bỏ ra thêm công sức và tiền bạc (thuê hay mua phần cứng) để cài đặt và triển khai một giải thuật mới có đáng hay không?
+Baseline là một nền móng rất quan trọng để phát triển dự án. Sau khi đã kết thúc quá trình thử nghiệm có thể chúng ta không dùng baseline khi triển khai ứng dụng nhưng baseline vẫn là dấu mốc để xem chúng ta đã đi được bao xa và liệu bỏ ra thêm công sức và tiền bạc (thuê hay mua phần cứng) để cài đặt và triển khai một giải thuật mới có đáng hay không?
 
-Baseline là để trả lời câu hỏi CÓ ĐÁNG HAY KHÔNG đó!
+Baseline tốt sẽ giúp trgả lời câu hỏi CÓ ĐÁNG HAY KHÔNG đó nhanh chóng, chính xác!
 
 
 - - -
