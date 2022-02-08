@@ -38,7 +38,7 @@ Baseline là các giải thuật dễ hiểu và cách cài đặt đơn giản 
 
 Baseline là một nền móng rất quan trọng để phát triển dự án. Sau khi đã kết thúc quá trình thử nghiệm có thể chúng ta không dùng baseline khi triển khai ứng dụng nhưng baseline vẫn là dấu mốc để xem chúng ta đã đi được bao xa và liệu bỏ ra thêm công sức và tiền bạc (thuê hay mua phần cứng) để cài đặt và triển khai một giải thuật mới có đáng hay không?
 
-Baseline tốt sẽ giúp trgả lời câu hỏi CÓ ĐÁNG HAY KHÔNG đó nhanh chóng, chính xác!
+Baseline tốt sẽ giúp trả lời câu hỏi CÓ ĐÁNG HAY KHÔNG đó nhanh chóng, chính xác!
 
 
 - - -
