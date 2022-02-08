@@ -40,3 +40,9 @@ Baseline là một nền móng rất quan trọng để phát triển dự án. 
 
 Baseline là để trả lời câu hỏi CÓ ĐÁNG HAY KHÔNG đó!
 
+
+- - -
+
+Q: Tiến độ tới đâu rồi Tuộc?
+
+A: Đang dần hoàn thiện baseline đó bạn. Xem phân `README.md` và tài liệu trong thư mục `docs` của từng dự án để biết thêm chi tiết.
