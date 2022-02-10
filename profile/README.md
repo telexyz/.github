@@ -61,7 +61,7 @@ Welcome bạn. Ai cũng có thể tham gia được, không cần kiến thức 
 1/ Ngôn ngữ lập trình Tuộc lựa chọn là https://ziglang.org/documentation/master nó vô cùng đơn giản, biên dịch nhanh, chạy lẹ, khả chuyển với C, và cài đặt chỉ cần download 1 file zip về là đủ.
 
 
-2/ Các giải thuật của baseline là kinh điển, cài đặt rõ ràng, tối ưu trong sáng để code trở nên dễ hiểu, dễ bắt lỗi và dễ độ tiếp.
+2/ Các giải thuật của baseline là cơ bản, cài đặt rõ ràng, để code trở nên dễ hiểu, dễ bắt lỗi và dễ phát triển tiếp.
 
 Cụ thể hơn:
 
@@ -76,4 +76,4 @@ Mọi người hay nói word vectors là đầu vào cho deep learning nhưng b�
 5/ Bạn đã có kinh nghiệm lập trình hệ thống thì cùng vọc https://github.com/telexyz/engine. Là phần nền tảng nhất và có nhiều mẹo tối ưu khi triển khai các giải thuật kinh điển cho tiếng Việt như bộ tách token cho âm tiết tiếng Việt và out-of-âm-tiết-tiếng-Việt (sử dụng sub-word). Làm thế nào chỉ cần `15-bits` là đủ để biểu diễn cho toàn bộ vài GB corpus đầu vào? Khi cần ép số lượng tokens xuống để làm nhẹ đi mô hình ngôn ngữ thì ép kiểu gì? Với `16-bits` chúng ta có thể và nên định danh những gì của tiếng Việt (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn và vẫn tiết kiệm tối đa bộ nhớ và CPU? Rồi với âm tiết là thành phần chủ đạo, nên cài đặt n-gram language model và làm inverted indexing để làm full-text-searh như thế nào? ... phần này hơi nhức đầu tí nhưng mà vui!
 
 
-6/ Bạn thích deep learning thì vọc https://github.com/telexyz/rnnlm, mô hình ngôn ngữ sử dụng mạng nơ ron hồi quy. Bạn có thể cài đặt lại `rnnlm` như là một bước cải tiến của `word2vec`, rồi LSTM ...  Một câu hỏi quan trọng là __"deep tới đâu là đủ?"__. Ví dụ một rnnlm đơn giản là đủ cho hậu xử lý của tác vụ tách từ. Với một language model có độ ứng dụng và hiệu năng cao thì có lẽ LSTM là đủ ...
+6/ Bạn thích deep learning thì vọc https://github.com/telexyz/rnnlm, mô hình ngôn ngữ sử dụng mạng nơ ron hồi quy. Bạn có thể cài đặt lại `rnnlm` như là một bước cải tiến của `word2vec`, rồi LSTM ...  Một câu hỏi quan trọng là __"deep tới đâu là đủ?"__. Ví dụ một rnnlm đơn giản là đủ cho hậu xử lý của tác vụ tách từ. Với một language model có độ ứng dụng và hiệu năng tốt thì có lẽ LSTM là đủ ...
