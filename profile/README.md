@@ -1,17 +1,17 @@
 ### Hi there 👋
 
-Lại là **Tuộc** đây và mời bạn cùng tham gia ✨ _hành trình_ ✨ áp dụng lập trình hệ thống vào xử lý ngôn ngữ tiếng Việt và cải tiến bộ gõ Telex của 🐙 🐙 🐙
+Lại là **Tuộc** đây và mời bạn cùng tham gia ✨ _hành trình_ ✨ áp dụng lập trình hệ thống vào xử lý ngôn ngữ tiếng Việt và cải tiến bộ gõ Telex 🐙 🐙 🐙
 
 Các bạn có thể hỏi tại sao lại là lập trình hệ thống với những ngôn ngữ cơ bản như C/C++ hay Zig mà không sử dụng ngôn ngữ bậc cao như Python hay Julia? 
 
 
 Đơn giản là vì:
 
-🔭 Cài đặt lại từ đầu các giải thuật bằng một ngôn ngữ bậc thấp, tối ưu hóa cho hệ thống chương trình đang chạy trong đó sẽ giúp người pháp triển hiểu sâu hơn rất nhiều về giải thuật cũng như hệ thống mà chương trình sẽ được triển khai. Biết được ưu điểm, nhược điểm của từng giải thuật và các cách để cải tiến chúng ra sao và có thể tối ưu tới hết mức. Điều này chỉ có thể làm được với lập trình hệ thống.
+🔭 Cài đặt lại từ đầu các giải thuật bằng một ngôn ngữ bậc thấp, tối ưu hóa cho hệ thống chương trình đang chạy sẽ giúp người pháp triển hiểu sâu hơn rất nhiều về giải thuật cũng như hệ thống mà chương trình sẽ được triển khai. Biết được ưu điểm, nhược điểm của từng giải thuật và các cách để cải tiến chúng ra sao. Điều này chỉ có thể làm được với lập trình hệ thống.
 
-⚡ Tốc độ ưu việt: đương nhiên rồi, vì lập trình hệ thống mà. Không những cả tốc độ mà bộ nhớ nữa. Điều này rất quan trọng khi triển khai trên các thiết bị đầu cuối phần cứng không mạnh mẽ như mobile chẳng hạn.
+⚡ Tốc độ ưu việt: đương nhiên rồi, vì lập trình hệ thống mà. Không những cả tốc độ mà bộ nhớ nữa. Điều này rất quan trọng khi triển khai trên các thiết bị không mạnh như mobile chẳng hạn.
 
-🌱 Triển khai đa dạng: có thể biên dịch và triển khai trên nền web thông qua web assembly hoặc nhúng vào những hệ thống phần cứng khác không phải PC, deploy trên mobile cũng dễ dàng. Ở đâu có hỗ trợ C compiler thì ở đó chúng ta có thể triển khai được ứng dụng viết bằng ngôn ngữ bậc thấp.
+🌱 Triển khai đa dạng: ền web thông qua web assembly hoặc nhúng vào những hệ thống phần cứng khác không phải PC, deploy trên mobile cũng dễ dàng. Ở đâu có hỗ trợ C compiler thì ở đó chúng ta có thể triển khai được ứng dụng viết bằng C/C++/Zig.
 
 - - -
 
@@ -26,19 +26,17 @@ A: Muốn có kết quả ngay và ra được ứng dụng ăn liền thì bạ
 
 Không đuổi theo kết quả tốt nhất mà theo đuổi hiệu năng tốt nhất (độ chính xác / công sức lập trình và độ tốn kém của phần cứng khi chạy giải thuật). Vì nếu bỏ ra 1 tháng trời để cài đặt hoặc bỏ vài ngàn đô để mua phần cứng về chạy giải thuật mới để độ chính xác tăng lên 5-10% thì có lẽ chưa thỏa đáng, trừ trường hợp mục tiêu tối thượng của bạn là độ chính xác.
 
-Trong quá trình triển khai ứng dụng có nhiều bài toán con phát sinh hay đơn giản là customize cho từng domain. Nếu giải thuật khó hiểu, cài đặt phức tạp, chạy trên phần cứng thông thường mất nhiều thời gian thì sẽ gây ra nhiều cản trở cho quá trình customize hoặc kết hợp dùng những giải thuật những model đang có để giải quyết bài toán cón.
+Trong quá trình triển khai ứng dụng có nhiều bài toán con phát sinh hay đơn giản là cần customize cho từng domain. Nếu giải thuật khó hiểu, cài đặt phức tạp, chạy trên phần cứng thông thường mất nhiều thời gian thì sẽ gây ra nhiều cản trở cho quá trình đó. 
 
-Vì thế một baseline ✨ ĐỦ TỐT ✨ là rất quan trọng.
+Khi đó, có trong tay một baseline ✨ ĐỦ TỐT ✨ là rất quan trọng.
 
 - - -
 
 ### Baseline đủ tốt là gì?
 
-Baseline là các giải thuật dễ hiểu và cách cài đặt đơn giản nhưng kết quả đủ tốt và hiệu năng cao. Vì dễ hiểu, đơn giản, và hiệu năng cao nên có thể chỉnh sửa, cải tiến, chạy thử nghiệm liên tục mà không phải chờ đợi hàng giờ, hàng ngày, hàng năm hoặc vò đầu bứt tai vì không hiểu đoạn code này để làm cái gì và chỗ này nên chỉnh sửa như thế nào.
+Baseline là các giải thuật dễ hiểu và cách cài đặt đơn giản nhưng kết quả đủ tốt và hiệu năng cao. Vì dễ hiểu, đơn giản, và hiệu năng cao nên có thể chỉnh sửa, cải tiến, chạy thử nghiệm liên tục mà không phải chờ đợi hàng giờ, hàng ngày, hàng tuần ... hoặc vò đầu bứt tai vì không hiểu đoạn code này để làm cái gì và chỗ này nên chỉnh sửa như thế nào.
 
-Baseline là một nền móng rất quan trọng để phát triển dự án. Sau khi đã kết thúc quá trình thử nghiệm có thể chúng ta không dùng baseline khi triển khai ứng dụng nhưng baseline vẫn là dấu mốc để xem chúng ta đã đi được bao xa và liệu bỏ ra thêm công sức và tiền bạc (thuê hay mua phần cứng) để cài đặt và triển khai một giải thuật mới có đáng hay không?
-
-Baseline tốt sẽ giúp trả lời câu hỏi CÓ ĐÁNG HAY KHÔNG đó nhanh chóng, chính xác!
+Baseline là một nền móng rất quan trọng để phát triển dự án. Sau khi đã kết thúc quá trình thử nghiệm có thể chúng ta không dùng trực tiếp baseline nhưng đó vẫn là dấu mốc để xem chúng ta đã đi được bao xa và liệu bỏ ra thêm công sức và tiền bạc để cài đặt và triển khai một giải thuật mới có đáng hay không? Baseline tốt sẽ giúp trả lời câu hỏi CÓ ĐÁNG HAY KHÔNG đó nhanh chóng, chính xác!
 
 
 - - -
@@ -51,7 +49,7 @@ Người dùng tương tác mới máy tính chủ yếu qua bàn phím. Và đ�
 
 ### Tiến độ tới đâu rồi Tuộc?
 
-Tuy còn nhiều việc phải làm thêm nhưng baseline đã tạm đủ hoàn thiện để triển khai ứng dụng. Xem phân `README.md` và tài liệu trong thư mục `docs` của từng `repo` để biết thêm chi tiết.
+Tuy còn nhiều việc phải làm thêm nhưng baseline đã tạm đủ tốt để triển khai ứng dụng. Xem `README.md` và `docs` của từng `repo` để biết thêm chi tiết.
 
 
 - - -
@@ -67,15 +65,15 @@ Welcome bạn. Ai cũng có thể tham gia được, không cần kiến thức 
 
 Cụ thể hơn:
 
-3/ Bạn thích làm ứng dụng có thể vọc ngay https://github.com/telexyz/fingers là bộ gõ telex trên nền javascript và tương tác với nlp engine thông qua web assembly.
+3/ Bạn thích làm ứng dụng thì chiến https://github.com/telexyz/fingers là bộ gõ telex trên nền javascript và tương tác với nlp engine thông qua web assembly.
 
 
-4/ Bạn nào mới biết NLP và muốn thứ gì đó thật đơn giản nhưng vẫn ✨ _fancy_ ✨ thì mời cùng làm https://github.com/telexyz/embed. Bạn sẽ hiểu thế nào là vector space model, re-distributed representation, word embedding, hiểu cách cài đặp một neural network đơn giản để tạo ra word vectors từ text corpus trong chưa tới [200 dòng mã](https://github.com/telexyz/embed/blob/main/src/model.zig) cộng thêm code comments và tài liệu đọc hiểu đi kèm không thể đầy đủ hơn. Dựa trên word embedding có thể mở ra nhiều biến thể  như topic embedding, document embedding, sense embedding, contextual embedding ... và ứng dụng vào nhiều bài toán khác nhau từ NLP cơ bản cho tới text mining và semantic search. Đây là một baseline rất cool mà ai cũng có thể vọc được. 
+4/ Bạn muốn thứ gì đó thật đơn giản nhưng vẫn ✨ _fancy_ ✨ thì làm https://github.com/telexyz/embed. Bạn sẽ hiểu thế nào là vector space model, re-distributed representation, word embedding, hiểu cách cài đặp một neural network đơn giản để tạo ra word vectors từ text corpus trong chưa tới [200 dòng mã](https://github.com/telexyz/embed/blob/main/src/model.zig). Dựa trên word embedding có thể mở ra nhiều biến thể  như topic embedding, document embedding, sense embedding ... và ứng dụng vào nhiều bài toán khác nhau từ NLP cơ bản cho tới text mining và semantic search. Đây là một baseline rất ngầu mà ai cũng có thể vọc được.
 
 Mọi người hay nói word vectors là đầu vào cho deep learning nhưng bản thân nó đã là cả một thế giới rồi. Và biết đâu đôi khi deep learning lại là công cụ để bạn xây dựng nên thế giới đó!
 
 
-5/ Bạn nào đã có kinh nghiệm lập trình hệ thống thì cùng vọc https://github.com/telexyz/engine. Là phần nền tảng nhất và có nhiều mẹo tối ưu khi triển khai các giải thuật kinh điển cho tiếng Việt như bộ tách token cho âm tiết tiếng Việt và out-of-âm-tiết-tiếng-Việt (sử dụng sub-word). Làm thế nào chỉ cần `15-bits` là đủ để biểu diễn cho toàn bộ vài GB corpus đầu vào? Khi cần ép số lượng tokens xuống để làm nhẹ đi mô hình ngôn ngữ thì ép kiểu gì? Với `16-bits` chúng ta có thể và nên định danh những gì của tiếng Việt (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn và vẫn tiết kiệm tối đa bộ nhớ và CPU? Rồi với âm tiết là thành phần chủ đạo, nên cài đặt n-gram language model và làm inverted indexing để làm full-text-searh như thế nào? ... phần này hơi nhức đầu tí nhưng mà vui!
+5/ Bạn đã có kinh nghiệm lập trình hệ thống thì cùng vọc https://github.com/telexyz/engine. Là phần nền tảng nhất và có nhiều mẹo tối ưu khi triển khai các giải thuật kinh điển cho tiếng Việt như bộ tách token cho âm tiết tiếng Việt và out-of-âm-tiết-tiếng-Việt (sử dụng sub-word). Làm thế nào chỉ cần `15-bits` là đủ để biểu diễn cho toàn bộ vài GB corpus đầu vào? Khi cần ép số lượng tokens xuống để làm nhẹ đi mô hình ngôn ngữ thì ép kiểu gì? Với `16-bits` chúng ta có thể và nên định danh những gì của tiếng Việt (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn và vẫn tiết kiệm tối đa bộ nhớ và CPU? Rồi với âm tiết là thành phần chủ đạo, nên cài đặt n-gram language model và làm inverted indexing để làm full-text-searh như thế nào? ... phần này hơi nhức đầu tí nhưng mà vui!
 
 
-6/ Bạn nào đã pro về NLP và thích deep learning thì xin mời vọc https://github.com/telexyz/rnnlm, mô hình ngôn ngữ sử dụng mạng nơ ron hồi quy. Bạn có thể cài đặt lại `rnnlm` như là một bước cải tiến của `word2vec`, rồi cài đặt tiếp biến thể LSTM của RNN, rồi tới Transformer ... Phần này Tuộc chưa làm tới, để ở đây để có hình dung tổng quát.  Khi làm phần này thì một câu hỏi quan trọng cần đặt ra là __"deep tới đâu là đủ?"__. Ví dụ một rnnlm đơn giản là đủ cho hậu xử lý của tác vụ tách từ. Với một language model có độ ứng dụng cao thì có lẽ LSTM là đủ. Còn để chạy đua lên mặt trăng thì xin mời dùng Transformer. Transformer của Deep Learning chứ không phải robot biến hình trên tivi các bạn ạ. Phần này đang rất hot và thường sử dụng phần cứng chuyên dụng (GPU, TPU). Liệu với phần cứng bình dân ta có thể chọi được với các phần cứng chuyên dụng hoặc siêu máy tính không?
+6/ Bạn thích deep learning thì vọc https://github.com/telexyz/rnnlm, mô hình ngôn ngữ sử dụng mạng nơ ron hồi quy. Bạn có thể cài đặt lại `rnnlm` như là một bước cải tiến của `word2vec`, rồi LSTM ...  Một câu hỏi quan trọng là __"deep tới đâu là đủ?"__. Ví dụ một rnnlm đơn giản là đủ cho hậu xử lý của tác vụ tách từ. Với một language model có độ ứng dụng và hiệu năng cao thì có lẽ LSTM là đủ ...
