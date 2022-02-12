@@ -58,26 +58,26 @@ Tuy còn nhiều việc phải làm thêm nhưng baseline đã tạm đủ tốt
 
 Welcome bạn. Ai cũng có thể tham gia được, không cần kiến thức lập trình hệ thống cũng như NLP. Bởi:
 
-1/ Ngôn ngữ lập trình Tuộc lựa chọn là https://ziglang.org/documentation/master nó vô cùng đơn giản, biên dịch nhanh, chạy lẹ, khả chuyển với C, và cài đặt chỉ cần download 1 file zip về là đủ.
+1/ Ngôn ngữ lập trình Tuộc chọn là https://ziglang.org/documentation/master nó vô cùng đơn giản và nhất quán nên dễ học viết ít khi bị mắc lỗi; biên dịch nhanh, chạy lẹ, khả chuyển với C, cài đặt chỉ cần download 1 file zip về là đủ.
 
 
-2/ Các giải thuật của baseline là cơ bản, cài đặt rõ ràng, để code trở nên dễ hiểu, dễ bắt lỗi và dễ phát triển tiếp.
+2/ Các giải thuật của baseline là cơ bản, cài đặt rõ ràng; code dễ hiểu, dễ bắt lỗi và dễ phát triển tiếp.
 
 Cụ thể hơn:
 
-3/ Bạn thích làm ứng dụng thì chiến https://github.com/telexyz/fingers là bộ gõ telex trên nền javascript và tương tác với nlp engine thông qua web assembly.
+A/ Bạn thích làm ứng dụng thì chiến https://github.com/telexyz/fingers là bộ gõ telex trên nền javascript và tương tác với nlp engine thông qua web assembly.
 
 
-4/ Bạn muốn thứ gì đó thật đơn giản nhưng vẫn ✨ _fancy_ ✨ thì làm https://github.com/telexyz/embed. Bạn sẽ hiểu thế nào là vector space model, re-distributed representation, word embedding, hiểu cách cài đặp một neural network đơn giản để tạo ra word vectors từ text corpus trong chưa tới [200 dòng mã](https://github.com/telexyz/embed/blob/main/src/model.zig). Dựa trên word embedding có thể mở ra nhiều biến thể  như topic embedding, document embedding, sense embedding ... và ứng dụng vào nhiều bài toán khác nhau từ NLP cơ bản cho tới text mining và semantic search. Đây là một baseline rất ngầu mà ai cũng có thể vọc được.
+B/ Bạn muốn thứ gì đó thật đơn giản nhưng vẫn ✨ _fancy_ ✨ thì làm https://github.com/telexyz/embed. Bạn sẽ hiểu thế nào là vector space model, re-distributed representation, word embedding, hiểu cách cài đặp một neural network đơn giản để tạo ra word vectors từ text corpus trong chưa tới [200 dòng mã](https://github.com/telexyz/embed/blob/main/src/model.zig). Dựa trên word embedding có thể mở ra nhiều biến thể  như topic embedding, document embedding, sense embedding ... và ứng dụng vào nhiều bài toán khác nhau từ NLP cơ bản cho tới text mining và semantic search. Đây là một baseline rất ngầu mà ai cũng có thể vọc được.
 
-Mọi người hay nói word vectors là đầu vào cho deep learning nhưng bản thân nó đã là cả một thế giới rồi. Và biết đâu đôi khi deep learning lại là công cụ để bạn xây dựng nên thế giới đó!
-
-
-5/ Bạn đã có kinh nghiệm lập trình hệ thống thì cùng vọc https://github.com/telexyz/engine. Là phần nền tảng nhất và có nhiều mẹo tối ưu khi triển khai các giải thuật kinh điển cho tiếng Việt như bộ tách token cho âm tiết tiếng Việt và out-of-âm-tiết-tiếng-Việt (sử dụng sub-word). Làm thế nào chỉ cần `15-bits` là đủ để biểu diễn cho toàn bộ vài GB corpus đầu vào? Khi cần ép số lượng tokens xuống để làm nhẹ đi mô hình ngôn ngữ thì ép kiểu gì? Với `16-bits` chúng ta có thể và nên định danh những gì của tiếng Việt (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn và vẫn tiết kiệm tối đa bộ nhớ và CPU? Rồi với âm tiết là thành phần chủ đạo, nên cài đặt n-gram language model và làm inverted indexing để làm full-text-searh như thế nào? ... phần này hơi nhức đầu tí nhưng mà vui!
+Mọi người hay nói word vectors là đầu vào cho deep learning nhưng bản thân nó đã là cả một thế giới rồi!
 
 
-6/ Bạn thích deep learning nlp thì bắt đầu bằng https://github.com/telexyz/nnlm - mô hình ngôn ngữ sử dụng mạng nơ ron. Bạn có thể cài đặt lại `rnnlm` như là một bước cải tiến của `word2vec` và tìm hiểu cách tối ưu mà chưa cần dùng tới GPU.
+C/ Bạn đã có kinh nghiệm lập trình hệ thống thì cùng vọc https://github.com/telexyz/engine. Là phần nền tảng nhất và có nhiều mẹo tối ưu khi triển khai các giải thuật kinh điển cho tiếng Việt như bộ tách token cho âm tiết tiếng Việt và out-of-âm-tiết-tiếng-Việt (sử dụng sub-word). Làm thế nào chỉ cần `15-bits` là đủ để biểu diễn cho toàn bộ vài GB corpus đầu vào? Khi cần ép số lượng tokens xuống để làm nhẹ đi mô hình ngôn ngữ thì ép kiểu gì? Với `16-bits` chúng ta có thể và nên định danh những gì của tiếng Việt (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn và vẫn tiết kiệm tối đa bộ nhớ và CPU? Rồi với âm tiết là thành phần chủ đạo, nên cài đặt n-gram language model và làm inverted indexing để làm full-text-searh như thế nào? ... phần này hơi nhức đầu tí nhưng mà vui!
+
+
+D/ Bạn thích deep learning nlp thì bắt đầu bằng https://github.com/telexyz/rnnlm - mô hình ngôn ngữ sử dụng mạng nơ ron hồi quy. Bạn có thể cài đặt lại `rnnlm` như là một bước cải tiến của `word2vec` và tìm hiểu cách tối ưu mà chưa cần dùng tới GPU.
 
 Tiếp đến bạn thay `embedding layer` thành `projection layer` như trong kiến trúc tinh gọn pQRNN, pNLP-Mixer để làm gọn lại mô hình mà vẫn giữ được độ chính xác. (tham khảo https://github.com/ChenghaoMou/pytorch-pQRNN)
 
- [pNLP-Mixer](https://github.com/telexyz/learn/blob/main/pNLP-mixer-review.md) là mô hình đơn giản, ít tham số, hiệu năng cao không thua kép các mô hình nhiều tham số, thân thiện với nhiều phần cứng từ mobile cho tới server. Tính ứng dụng của hướng tinh gọn này là rất cao.
+ [pNLP-Mixer](https://github.com/telexyz/learn/blob/main/pNLP-mixer-review.md) là mô hình đơn giản, ít tham số, hiệu năng cao, không thua các mô hình nhiều tham số, thân thiện với nhiều phần cứng từ mobile cho tới server.
