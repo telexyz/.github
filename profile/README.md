@@ -17,7 +17,7 @@ Các bạn có thể hỏi tại sao lại là lập trình hệ thống với n
 
 ### Tại sao lại code từ đầu mà không dùng thư viện có sẵn? 
 
-A: Muốn có kết quả ngay và ra được ứng dụng ăn liền thì bạn nên dùng thư viện có sẵn, hiện có cực nhiều những thư viện như thế với chất lượng tuyệt vời, kể cả những models đã được train bằng những phần cứng chuyên dụng mà bạn không thể tự làm ở nhà được. Đấy là cả một kho tàng quý giá để bạn khai thác. Tuy nhiên đấy là với các pro (người chuyên nghiệp đã có kinh nghiệm làm thực tế nhiều năm), còn với người mới thì riêng việc đọc hiểu và lựa chọn công cụ thôi cũng nổ đầu rồi. Cũng công sức như thế sao ta không bỏ ra để cài đặt lại theo kiểu homemade theo cách mà ta muốn, khớp với mục đích ta đang theo đuổi?
+Muốn có kết quả ngay và ra được ứng dụng ăn liền thì bạn nên dùng thư viện có sẵn, hiện có cực nhiều những thư viện như thế với chất lượng tuyệt vời, kể cả những models đã được train bằng những phần cứng chuyên dụng mà bạn không thể tự làm ở nhà được. Đấy là cả một kho tàng quý giá để bạn khai thác. Tuy nhiên đấy là với các pro (người chuyên nghiệp đã có kinh nghiệm làm thực tế nhiều năm), còn với người mới thì riêng việc đọc hiểu và lựa chọn công cụ thôi cũng nổ đầu rồi. Cũng công sức như thế sao ta không bỏ ra để cài đặt lại theo kiểu homemade theo cách mà ta muốn, khớp với mục đích ta đang theo đuổi?
 
 
 - - -
