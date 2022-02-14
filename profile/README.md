@@ -17,18 +17,18 @@ Các bạn có thể hỏi tại sao lại là lập trình hệ thống với n
 
 ### Tại sao lại code từ đầu mà không dùng thư viện có sẵn? 
 
-Muốn có kết quả ngay và ra được ứng dụng ăn liền thì bạn nên dùng thư viện có sẵn, hiện có cực nhiều những thư viện như thế với chất lượng tuyệt vời, kể cả những models đã được train bằng những phần cứng chuyên dụng mà bạn không thể tự làm ở nhà được. Đấy là cả một kho tàng quý giá để bạn khai thác. Tuy nhiên đấy là với các pro (người chuyên nghiệp đã có kinh nghiệm làm thực tế nhiều năm), còn với người mới thì riêng việc đọc hiểu và lựa chọn công cụ thôi cũng nổ đầu rồi. Cũng công sức như thế sao ta không bỏ ra để cài đặt lại theo kiểu homemade theo cách mà ta muốn, khớp với mục đích ta đang theo đuổi?
+Muốn có kết quả ngay và ra được ứng dụng ăn liền thì bạn nên dùng thư viện có sẵn, hiện có cực nhiều những thư viện như thế với chất lượng tuyệt vời, kể cả những models đã được train bằng những phần cứng chuyên dụng mà bạn không thể tự làm ở nhà được. Tuy nhiên đấy là với pro (người chuyên nghiệp đã có kinh nghiệm làm thực tế nhiều năm), còn với người mới thì riêng việc đọc hiểu và lựa chọn công cụ thôi cũng nổ đầu rồi. Cũng công sức như thế sao ta không bỏ ra để cài đặt lại theo kiểu #nhà_làm, theo cái cách mà ta muốn, phù hợp với bài toán đang giải quyết, khớp với mục đích ta theo đuổi?
 
 
 - - -
 
 ### Mục tiêu của dự án là gì?
 
-Không đuổi theo kết quả tốt nhất mà theo đuổi hiệu năng tốt nhất (độ chính xác / công sức lập trình và độ tốn kém của phần cứng khi chạy giải thuật). Vì nếu bỏ ra 1 tháng trời để cài đặt hoặc bỏ vài ngàn đô để mua phần cứng về chạy giải thuật mới để độ chính xác tăng lên 5-10% thì có lẽ chưa thỏa đáng, trừ trường hợp mục tiêu tối thượng của bạn là độ chính xác.
+Không đuổi theo kết quả tốt nhất mà là hiệu năng tốt nhất (độ chính xác / công sức lập trình và độ tốn kém của phần cứng khi chạy giải thuật). Vì nếu bỏ ra 1 tháng trời để cài đặt hoặc bỏ vài ngàn đô để mua phần cứng về chạy giải thuật mới để độ chính xác tăng lên 5% chẳng hạn thì có lẽ chưa thỏa đáng, trừ trường hợp mục tiêu tối thượng của bạn là độ chính xác.
 
-Trong quá trình triển khai ứng dụng có nhiều bài toán con phát sinh hay đơn giản là cần customize cho từng domain. Nếu giải thuật khó hiểu, cài đặt phức tạp, chạy trên phần cứng thông thường mất nhiều thời gian thì sẽ gây ra nhiều cản trở cho quá trình đó. 
+Trong quá trình triển khai ứng dụng nhiều lúc phải loay hoay với những bài toán con phát sinh. Nếu giải thuật khó hiểu, cài đặt phức tạp, chạy trên phần cứng thông thường mất nhiều thời gian thì sẽ gây ra nhiều cản trở cho quá trình #thử_sai đó. Thời gian chạy càng ngắn, code càng dễ hiểu ta; càng thử sai được nhiều lần và rút kinh nghiệm nhanh hơn.
 
-Khi đó, có trong tay một baseline ✨ ĐỦ TỐT ✨ là rất quan trọng.
+Như vậy, có trong tay một baseline ✨ ĐỦ TỐT ✨ là một vũ khí rất quan trọng.
 
 - - -
 
