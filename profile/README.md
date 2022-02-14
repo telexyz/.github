@@ -43,7 +43,7 @@ Baseline là một nền móng rất quan trọng để phát triển dự án. 
 
 ### Tại sao lại là `telexyz`?
 
-Người dùng tương tác mới máy tính chủ yếu qua bàn phím. Và để gõ tiếng Việt thì phổ biến nhất là kiểu gõ Telex. Sao không khai thác ngay điểm khởi của cả dữ liệu và tương tác người dùng đó? Chẳng hạn có thể áp dụng NLP ngay trong lúc người dùng đang gõ tiếng Việt được không? Làm thế nào để vừa gõ tiếng Việt vừa gõ tiếng Anh hiệu quả? Có thể gõ không dấu và máy tính tự bỏ dấu tiếng Việt dựa trên những văn bản người dùng đã gõ được không? ... Vậy nên `telexyz` nghĩa là bắt đầu bằng bộ gõ `telex` gia tăng giá trị cho nó(`+ xyz`).
+Người dùng tương tác mới máy tính chủ yếu qua bàn phím. Và để gõ tiếng Việt thì phổ biến nhất là kiểu gõ Telex. Sao không khai thác ngay điểm khởi của cả dữ liệu và tương tác người dùng đó? Chẳng hạn có thể áp dụng NLP ngay trong lúc người dùng đang gõ tiếng Việt được không? Làm thế nào để vừa gõ tiếng Việt vừa gõ tiếng Anh hiệu quả? Có thể gõ không dấu và máy tính tự bỏ dấu tiếng Việt dựa trên những văn bản người dùng đã gõ được không? ... Vậy nên `telexyz` nghĩa là bắt đầu ngay ở bộ gõ/cửa ngõ (`telex`) và gia tăng giá trị cho nó (`xyz`).
 
 - - -
 
