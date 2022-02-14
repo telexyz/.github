@@ -11,7 +11,7 @@ Các bạn có thể hỏi tại sao lại là lập trình hệ thống với n
 
 ⚡ Tốc độ ưu việt: đương nhiên rồi, vì lập trình hệ thống mà. Không những cả tốc độ mà bộ nhớ nữa. Điều này rất quan trọng khi triển khai trên các thiết bị không mạnh như mobile chẳng hạn.
 
-🌱 Triển khai đa dạng: ền web thông qua web assembly hoặc nhúng vào những hệ thống phần cứng khác không phải PC, deploy trên mobile cũng dễ dàng. Ở đâu có hỗ trợ C compiler thì ở đó chúng ta có thể triển khai được ứng dụng viết bằng C/C++/Zig.
+🌱 Triển khai đa dạng: Qua website bằng web assembly hoặc nhúng vào những hệ thống phần cứng khác không phải PC, deploy trên mobile cũng dễ dàng. Ở đâu có hỗ trợ C compiler thì ở đó chúng ta có thể triển khai được ứng dụng viết bằng C/C++/Zig.
 
 - - -
 
