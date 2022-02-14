@@ -78,6 +78,6 @@ C/ Bạn đã có kinh nghiệm lập trình hệ thống thì cùng vọc https
 
 D/ Bạn thích deep learning nlp thì bắt đầu bằng https://github.com/telexyz/nnlm - mô hình ngôn ngữ sử dụng mạng nơ ron hồi quy. Bạn có thể cài đặt lại `rnnlm` như là một bước cải tiến của `word2vec` và tìm hiểu cách tối ưu mà chưa cần dùng tới GPU.
 
-Tiếp đến bạn thay `embedding layer` thành `projection layer` như trong kiến trúc tinh gọn pQRNN, pNLP-Mixer để làm gọn lại mô hình mà vẫn giữ được độ chính xác. (tham khảo https://github.com/ChenghaoMou/pytorch-pQRNN)
+Tiếp đến bạn thay `embedding layer` thành `projection layer` như trong kiến trúc tinh gọn pRNN, pLSTM, pQRNN, pNLP-Mixer để làm gọn lại mô hình mà vẫn giữ được độ chính xác.
 
  [pNLP-Mixer](https://github.com/telexyz/ml4coders/blob/main/learn/pNLP-mixer-review.md) là mô hình đơn giản, ít tham số, hiệu năng cao, không thua các mô hình nhiều tham số, thân thiện với nhiều phần cứng từ mobile cho tới server.
