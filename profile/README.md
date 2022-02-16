@@ -68,10 +68,9 @@ Cụ thể hơn:
 A/ Bạn thích làm ứng dụng thì chiến https://github.com/telexyz/fingers là bộ gõ telex trên nền javascript và tương tác với nlp engine thông qua web assembly.
 
 
-B/ Bạn muốn thứ gì đó thật đơn giản nhưng vẫn ✨ _fancy_ ✨ thì làm https://github.com/telexyz/embed. Bạn sẽ hiểu thế nào là vector space model, re-distributed representation, word embedding, hiểu cách cài đặp một neural network đơn giản để tạo ra word vectors từ text corpus trong chưa tới [200 dòng mã](https://github.com/telexyz/embed/blob/main/src/model.zig). Dựa trên word embedding có thể mở ra nhiều biến thể  như topic embedding, document embedding, sense embedding ... và ứng dụng vào nhiều bài toán khác nhau từ NLP cơ bản cho tới text mining và semantic search. Đây là một baseline rất ngầu mà ai cũng có thể vọc được.
+B/ Bạn muốn thứ gì đó thật đơn giản nhưng vẫn ✨ _fancy_ ✨ thì làm https://github.com/telexyz/embed. Bạn sẽ hiểu thế nào là vector space model, re-distributed representation, word embedding, hiểu cách cài đặp một neural network đơn giản để tạo ra word vectors từ text corpus trong chưa tới [200 dòng mã](https://github.com/telexyz/embed/blob/main/src/model.zig). Dựa trên word embedding có thể mở ra nhiều biến thể  như topic embedding, document embedding, sense embedding ... và ứng dụng vào nhiều bài toán khác nhau từ NLP cơ bản cho tới text mining và semantic search. Đây thục sự là một baseline rất ngầu mà ai cũng có thể vọc được.
 
-Mọi người hay nói word vectors là đầu vào cho deep learning nhưng bản thân nó đã là cả một thế giới rồi!
-
+__Note__: Dịch vụ [blazingtext](https://docs.aws.amazon.com/sagemaker/latest/dg/blazingtext.html) của Amazon đang xài cùng giải thuật `word2vec`.
 
 C/ Bạn đã có kinh nghiệm lập trình hệ thống thì cùng vọc https://github.com/telexyz/engine. Là phần nền tảng nhất và có nhiều mẹo tối ưu khi triển khai các giải thuật kinh điển cho tiếng Việt như bộ tách token cho âm tiết tiếng Việt và out-of-âm-tiết-tiếng-Việt (sử dụng sub-word). Làm thế nào chỉ cần `15-bits` là đủ để biểu diễn cho toàn bộ vài GB corpus đầu vào? Khi cần ép số lượng tokens xuống để làm nhẹ đi mô hình ngôn ngữ thì ép kiểu gì? Với `16-bits` chúng ta có thể và nên định danh những gì của tiếng Việt (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn và vẫn tiết kiệm tối đa bộ nhớ và CPU? Rồi với âm tiết là thành phần chủ đạo, nên cài đặt n-gram language model và làm inverted indexing để làm full-text-searh như thế nào? ... phần này hơi nhức đầu tí nhưng mà vui!
 
