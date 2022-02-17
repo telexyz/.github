@@ -79,4 +79,4 @@ D/ Bạn thích deep learning nlp thì bắt đầu bằng https://github.com/te
 
 Tiếp đến bạn thay `embedding layer` thành `projection layer` như trong kiến trúc tinh gọn pRNN, pLSTM, pQRNN, pNLP-Mixer để làm gọn lại mô hình mà vẫn giữ được độ chính xác.
 
- [pNLP-Mixer](https://github.com/telexyz/ml4coders/blob/main/learn/pNLP-mixer-review.md) là mô hình đơn giản, ít tham số, hiệu năng cao, không thua các mô hình nhiều tham số, thân thiện với nhiều phần cứng từ mobile cho tới server.
+ [pNLP-Mixer](https://github.com/telexyz/ml4coders/blob/main/review/pNLP-mixer_2022.md) là mô hình đơn giản, ít tham số, hiệu năng cao, không thua các mô hình nhiều tham số, thân thiện với nhiều phần cứng từ mobile cho tới server.
