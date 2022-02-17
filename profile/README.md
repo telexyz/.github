@@ -73,15 +73,11 @@ Cụ thể hơn:
 
 A/ Bạn chưa biết bất cứ thứ gì code / math ... thì bắt đầu ở đây https://github.com/telexyz/ml4coders. Tập hợp các bài học vỡ lòng, take note cẩn thận, comments chi tiết để bạn có thể hiểu và tự làm từ A-Z. Tham gia hỏi đáp, thảo luận, cùng học và làm bài tập tại https://discord.gg/SZnnFG6v.
 
-B/ Bạn muốn thứ gì đó thật đơn giản nhưng ✨ _fancy_ ✨ thì làm https://github.com/telexyz/embed. Bạn sẽ hiểu thế nào là vector space model, re-distributed representation, word embedding, hiểu cách cài đặp một neural network đơn giản để tạo ra word vectors từ text corpus trong chưa tới [200 dòng mã](https://github.com/telexyz/embed/blob/main/src/model.zig). Dựa trên word embedding có thể mở ra nhiều biến thể  như topic embedding, document embedding, sense embedding ... và ứng dụng vào nhiều bài toán khác nhau từ NLP cơ bản cho tới text mining và semantic search. Đây thục sự là một baseline rất ngầu mà ai cũng có thể vọc được.
 
-__Note__: Dịch vụ [blazingtext](https://docs.aws.amazon.com/sagemaker/latest/dg/blazingtext.html) của Amazon đang xài cùng giải thuật `word2vec`.
+B/ Bạn muốn thứ gì đó thật đơn giản nhưng ✨ _fancy_ ✨ thì làm https://github.com/telexyz/embed. Bạn sẽ hiểu thế nào là vector space model, re-distributed representation, word embedding, hiểu cách cài đặp một neural network đơn giản để tạo ra word vectors từ text corpus trong chưa tới 200 dòng mã. Dựa trên word embedding có thể mở ra nhiều biến thể  như topic embedding, document embedding, sense embedding ... và ứng dụng vào nhiều bài toán khác nhau từ NLP cơ bản cho tới text mining và semantic search. Đây thục sự là một baseline rất ngầu mà ai cũng có thể vọc được.
+
 
 C/ Bạn đã có kinh nghiệm lập trình hệ thống thì cùng vọc https://github.com/telexyz/engine. Là phần nền tảng nhất và có nhiều mẹo tối ưu khi triển khai các giải thuật kinh điển cho tiếng Việt như bộ tách token cho âm tiết tiếng Việt và out-of-âm-tiết-tiếng-Việt (sử dụng sub-word). Làm thế nào chỉ cần `15-bits` là đủ để biểu diễn cho toàn bộ vài GB corpus đầu vào? Khi cần ép số lượng tokens xuống để làm nhẹ đi mô hình ngôn ngữ thì ép kiểu gì? Với `16-bits` chúng ta có thể và nên định danh những gì của tiếng Việt (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn và vẫn tiết kiệm tối đa bộ nhớ và CPU? Rồi với âm tiết là thành phần chủ đạo, nên cài đặt n-gram language model và làm inverted indexing để làm full-text-searh như thế nào? ... phần này hơi nhức đầu tí nhưng mà vui!
 
 
-D/ Bạn thích deep learning nlp thì bắt đầu bằng https://github.com/telexyz/nnlm - mô hình ngôn ngữ sử dụng mạng nơ ron hồi quy. Bạn có thể cài đặt lại `rnnlm` như là một bước cải tiến của `word2vec` và tìm hiểu cách tối ưu mà chưa cần dùng tới GPU.
-
-Tiếp đến bạn thay `embedding layer` thành `projection layer` như trong kiến trúc tinh gọn pRNN, pLSTM, pQRNN, pNLP-Mixer để làm gọn lại mô hình mà vẫn giữ được độ chính xác.
-
- [pNLP-Mixer](https://github.com/telexyz/ml4coders/blob/main/review/pNLP-mixer_2022.md) là mô hình đơn giản, ít tham số, hiệu năng cao, không thua các mô hình nhiều tham số, thân thiện với nhiều phần cứng từ mobile cho tới server.
+D/ Bạn thích deep learning nlp thì bắt đầu bằng https://github.com/telexyz/nnlm - mô hình ngôn ngữ sử dụng mạng nơ ron hồi quy. Bạn có thể cài đặt lại `rnnlm` đơn giản và tìm hiểu cách tối ưu mà chưa cần dùng tới GPU. Tiếp theo bạn thay `embedding layer` thành `projection layer` để trở thành kiến trúc tinh gọn pRNN khiến mô hình nhỏ lại còn vài MB mà độ chính xác vẫn cao. Làm tới đây rồi thì các kiến trúc khác như pLSTM, pQRNN, pNLP-Mixer sẽ không thể làm khó bạn được nữa!
