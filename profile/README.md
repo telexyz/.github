@@ -2,7 +2,13 @@
 
 Lại là **Tuộc** đây và mời bạn cùng tham gia ✨ _hành trình_ ✨ áp dụng lập trình hệ thống vào xử lý ngôn ngữ tiếng Việt và cải tiến bộ gõ Telex 🐙 🐙 🐙
 
-Các bạn có thể hỏi tại sao lại là lập trình hệ thống với những ngôn ngữ cơ bản như C/C++ hay Zig mà không sử dụng ngôn ngữ bậc cao như Python hay Julia? 
+* Bạn thấy thích và tham gia liền thì bấm [vào đây](https://github.com/telexyz#t%C3%B4i-c%C3%B3-th%E1%BB%83-tham-gia-%C4%91%C6%B0%E1%BB%A3c-kh%C3%B4ng-v%C3%A0-n%C3%AAn-b%E1%BA%AFt-%C4%91%E1%BA%A7u-t%E1%BB%AB-%C4%91%C3%A2u)
+
+* Còn không thì bỏ chút thời gian đọc tiếp phần hỏi đáp dưới đây nhé:
+
+- - -
+
+### Các bạn có thể hỏi tại sao lại là lập trình hệ thống với những ngôn ngữ cơ bản như C/C++ hay Zig mà không sử dụng ngôn ngữ bậc cao như Python hay Julia? 
 
 
 Đơn giản là vì:
