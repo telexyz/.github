@@ -71,7 +71,7 @@ Welcome bạn. Ai cũng có thể tham gia được, không cần kiến thức 
 
 Cụ thể hơn:
 
-A/ Bạn chưa biết bất cứ thứ gì code / math ... thì bắt đầu ở đây https://github.com/telexyz/ml4coders. Tập hợp các bài học vỡ lòng, take note cẩn thận, comments chi tiết để bạn có thể hiểu và tự làm từ A-Z. Tham gia hỏi đáp, thảo luận, cùng học và làm bài tập tại https://discord.gg/SZnnFG6v.
+A/ Bạn chưa biết bất cứ thứ gì code / ML ... thì bắt đầu ở đây https://github.com/telexyz/ml4coders. Tập hợp các bài học vỡ lòng, take note cẩn thận, comments chi tiết để bạn có thể hiểu và tự làm từ A-Z. Tham gia hỏi đáp, thảo luận, cùng học và làm bài tập tại https://discord.gg/SZnnFG6v.
 
 
 B/ Bạn muốn thứ gì đó thật đơn giản nhưng ✨ _fancy_ ✨ thì làm https://github.com/telexyz/embed. Bạn sẽ hiểu thế nào là vector space model, re-distributed representation, word embedding, hiểu cách cài đặp một neural network đơn giản để tạo ra word vectors từ text corpus trong chưa tới 200 dòng mã. Dựa trên word embedding có thể mở ra nhiều biến thể  như topic embedding, document embedding, sense embedding ... và ứng dụng vào nhiều bài toán khác nhau từ NLP cơ bản cho tới text mining và semantic search. Đây thục sự là một baseline rất ngầu mà ai cũng có thể vọc được.
