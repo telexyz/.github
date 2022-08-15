@@ -8,6 +8,16 @@ Lại là **Tuộc** đây và mời bạn cùng tham gia ✨ _hành trình_ ✨
 
 - - -
 
+### `telexyz` nghĩa là gì?
+
+`telexyz` nghĩa là bắt đầu ở bộ gõ tiếng Việt (`telex`) và gia tăng giá trị cho nó (`xyz`):
+
+Người dùng tương tác mới máy tính chủ yếu qua bàn phím. Và Telex là kiểu gõ tiếng Việt phổ biến nhất. Làm NLP hiệu quả nên khai thác ngay điểm khởi của dữ liệu - là khi người dùng đang gõ bàn phím. Chẳng hạn có thể áp dụng dự đoán từ, sửa chính tả ngay trong lúc người dùng đang gõ không? Làm thế nào để vừa gõ tiếng Việt vừa gõ tiếng Anh hiệu quả? Có thể gõ không dấu và máy tính tự bỏ dấu tiếng Việt không? ...
+
+Nếu làm killer apps cho tiếng Việt thì bộ gõ chắc chắn là lựa chọn số 1 vì ai cũng phải dùng.
+
+- - -
+
 ### Tại sao lại là lập trình hệ thống với những ngôn ngữ cơ bản như C/C++/Zig mà không sử dụng ngôn ngữ bậc cao như Python? Là vì:
 
 🔭 Cài đặt từ đầu các giải thuật bằng ngôn ngữ lập trình bậc thấp và sử dụng các kỹ thuật tối ưu hóa ở mức lập trình hệ thống sẽ giúp chương trình chạy NHANH NHẤT - và có sự hiểu sâu hơn về giải thuật, dữ liệu, và hệ thống từ đó biết được ưu điểm, nhược điểm và các cách cải tiến.
@@ -24,7 +34,7 @@ Muốn có kết quả ngay thì bạn nên dùng thư viện có sẵn, có nhi
 
 - - -
 
-### Mục tiêu của dự án là gì?
+### Tiêu chí của dự án là gì?
 
 Tối ưu `hiệu năng = độ chính xác / công sức cài đặt * độ tốn kém phần cứng khi chạy giải thuật`. Nếu bỏ ra 1 tháng trời để cài đặt hóc búa hoặc bỏ vài ngàn đô để mua phần để độ chính xác tăng lên 5% chẳng hạn thì hẳn đã là tốt, trừ trường hợp mục tiêu của bạn là độ chính xác.
 
@@ -40,14 +50,6 @@ Baseline là các giải thuật dễ hiểu và dễ cài đặt, kết quả �
 
 Sau khi đã kết thúc quá trình thử nghiệm có thể chúng ta không dùng trực tiếp baseline nhưng đó vẫn là dấu mốc để xem chúng ta đã đi được bao xa và liệu bỏ ra thêm công sức và tiền bạc để cài đặt hoặc triển khai một giải thuật mới có đáng hay không? Baseline tốt sẽ giúp trả lời câu hỏi CÓ ĐÁNG HAY KHÔNG đó nhanh chóng, chính xác!
 
-
-- - -
-
-### Tại sao lại là `telexyz`?
-
-`telexyz` nghĩa là bắt đầu ngay ở bộ gõ (`telex`) và gia tăng giá trị cho nó (`xyz`):
-
-Người dùng tương tác mới máy tính chủ yếu qua bàn phím. Và Telex là kiểu gõ tiếng Việt phổ biến nhất. Làm NLP hiệu quả nên khai thác ngay điểm khởi của dữ liệu - là khi người dùng đang gõ bàn phím. Chẳng hạn có thể áp dụng dự đoán từ, sửa chính tả ngay trong lúc người dùng đang gõ không? Làm thế nào để vừa gõ tiếng Việt vừa gõ tiếng Anh hiệu quả? Có thể gõ không dấu và máy tính tự bỏ dấu tiếng Việt không? 
 
 - - -
 
