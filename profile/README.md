@@ -76,4 +76,4 @@ B/ Bạn đã có kinh nghiệm lập trình thì vọc [turbo](https://github.c
 
 > C/ Bạn thích deep learning thì bắt đầu bằng [nnlm](https://github.com/telexyz/nnlm) - mô hình ngôn ngữ sử dụng mạng nơ-ron. Bạn có thể tìm hiểu và thử nghiệm Transformer hoặc các kiến trúc tinh gọn hơn như QRNN, SHA-QRNN, SRU++, RWKV-LM ...
 
-D/ Deep learning language models đôi khi cảm thấy quá sức vì thời gian huấn luyện quá lâu, cần big data để huấn luyện ... ta có thể tìm hiểu những mô hình cỡ nhỏ để giải quyết bài toán đặc thù như tách từ, tách câu, thêm dấu ... xem [nnxs](https://github.com/telexyz/nnxs)
+D/ Deep learning language models đôi khi cảm thấy quá sức vì thời gian huấn luyện quá lâu, cần big data để huấn luyện ... ta có thể tìm hiểu những mô hình cỡ nhỏ để giải quyết bài toán đặc thù như tách từ, tách câu, thêm dấu ... xem [nnxs](https://github.com/telexyz/nnxs/issues)
