@@ -76,6 +76,9 @@ B/ Bạn đã có kinh nghiệm lập trình thì vọc [turbo](https://github.c
 
 > C/ Bạn thích deep learning thì bắt đầu bằng [nnlm](https://github.com/telexyz/nnlm) - mô hình ngôn ngữ sử dụng mạng nơ-ron. Bạn có thể tìm hiểu và thử nghiệm Transformer hoặc các kiến trúc tinh gọn hơn như QRNN, SHA-QRNN, SRU++, RWKV-LM ...
 
-D/ Deep learning large language models đôi khi cảm thấy quá sức vì thời gian huấn luyện quá lâu, cần big data để huấn luyện ... ta có thể tìm hiểu những mô hình cỡ nhỏ để giải quyết bài toán đặc thù như tách từ, tách câu, thêm dấu ... xem [mlxs](https://github.com/telexyz/mlxs/issues)
+D/ deep learning, large language models đôi khi cảm thấy quá sức vì đòi hỏi phần cứng chuyên dụng, thời gian huấn luyện lâu, cần thu thập và tiền xử lý dữ liệu lớn ... ta có thể tìm hiểu những mô hình cỡ nhỏ để giải quyết bài toán đặc thù như tách từ, tách câu, thêm dấu ... xem [mlxs](https://github.com/telexyz/mlxs/issues)
 
 > E/ Cuối cùng cải tiến bộ gõ Telex để gõ song ngữ Việt - Anh dễ dàng hơn, bộ gõ thông hinh hơn, trợ giúp người dùng đắc lực hơn [fingers-sublime](https://github.com/telexyz/fingers-sublime) 
+
+F/ Rảnh nữa thì cùng dịch sách Thuật toán hiệu năng cao cho phần cứng hiện đại
+F/ Chưa 
