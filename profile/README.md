@@ -80,5 +80,4 @@ D/ deep learning, large language models đôi khi cảm thấy quá sức vì đ
 
 > E/ Cuối cùng cải tiến bộ gõ Telex để gõ song ngữ Việt - Anh dễ dàng hơn, bộ gõ thông hinh hơn, trợ giúp người dùng đắc lực hơn [fingers-sublime](https://github.com/telexyz/fingers-sublime) 
 
-F/ Rảnh nữa thì cùng dịch sách Thuật toán hiệu năng cao cho phần cứng hiện đại
-F/ Chưa 
+F/ Rảnh nữa thì cùng dịch sách. Tuộc đang dịch dở cuốn [Thuật toán hiệu năng cao cho phần cứng hiện đại](https://github.com/telexyz/Algorithms-For-Modern-Hardware) Đây là giáo trình còn thiếu cho các sinh viên khoa học máy tính và những người làm nghề lập trình viên.
