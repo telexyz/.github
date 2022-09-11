@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Lại là **Tuộc** đây và mời bạn cùng tham gia ✨ _hành trình_ ✨ áp dụng lập trình hệ thống vào xử lý ngôn ngữ tiếng Việt và cải tiến bộ gõ Telex 🐙 🐙 🐙
+Lại là **Tuộc** đây và mời bạn cùng tham gia ✨ _hành trình_ ✨ áp dụng lập trình hệ thống, hiệu năng cao vào xử lý ngôn ngữ tiếng Việt và cải tiến bộ gõ Telex 🐙 🐙 🐙
 
 * Bạn thấy thích và tham gia liền thì bấm [vào đây](https://github.com/telexyz#t%C3%B4i-c%C3%B3-th%E1%BB%83-tham-gia-%C4%91%C6%B0%E1%BB%A3c-kh%C3%B4ng-v%C3%A0-n%C3%AAn-b%E1%BA%AFt-%C4%91%E1%BA%A7u-t%E1%BB%AB-%C4%91%C3%A2u)
 
