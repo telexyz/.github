@@ -66,9 +66,9 @@ Welcome bạn. Ai cũng có thể tham gia được, không cần kiến thức 
 
 1/ Ngôn ngữ lập trình Tuộc chọn là [Zig](https://ziglang.org/documentation/master) đơn giản và nhất quán nên dễ học viết ít khi mắc lỗi; biên dịch nhanh, chạy lẹ, sử dụng lại dễ dàng các thư viện viết C/C++, tính độc lập cao vì để code = Zig chỉ cần download 1 file zip về là đủ.
 
-2/ Các giải thuật của baseline được comment rõ ràng; code dễ hiểu, dễ bắt lỗi và dễ phát triển tiếp.
+2/ Các giải thuật được comment rõ ràng; code dễ hiểu, dễ bắt lỗi và dễ phát triển tiếp.
 
-3/ Sự hiểu biết về ngôn ngữ tự nhiên là cái có sẵn trong mỗi chúng ta vậy nên kiến thức NLP nhiều khi không quan trọn bằng trực giác.
+3/ Sự hiểu biết về ngôn ngữ tự nhiên là cái có sẵn trong mỗi chúng ta vậy nên kiến thức NLP nhiều khi không quan trọng bằng `trực giác`.
 
 Vậy nên cứ mạnh dạn tham gia nhé. Cụ thể hơn:
 
