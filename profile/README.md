@@ -1,1 +1,1 @@
-Xem giới thiệu dự án [tại đây](intro.md)
+Xem giới thiệu dự án [tại đây](/)
