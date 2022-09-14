@@ -1,1 +1,1 @@
-Xem giới thiệu dự án [tại đây](/)
+[Tôi ở đâu, đây là ai?]](https://github.com/telexyz/.github/)
