@@ -64,20 +64,22 @@ Xem `README.md` và `docs` của từng `repo` để biết thêm chi tiết.
 
 Welcome bạn. Ai cũng có thể tham gia được, không cần kiến thức lập trình hệ thống cũng như xử lý ngôn ngữ (NLP). Bởi:
 
-1/ Ngôn ngữ lập trình Tuộc chọn là [Zig](https://ziglang.org/documentation/master) đơn giản và nhất quán nên dễ học viết ít khi mắc lỗi; biên dịch nhanh, chạy lẹ, sử dụng lại dễ dàng các thư viện viết C/C++, tính độc lập cao vì để code = Zig chỉ cần download 1 file zip về là đủ.
+1. Ngôn ngữ lập trình Tuộc chọn là [Zig](https://ziglang.org/documentation/master) đơn giản và nhất quán nên dễ học viết ít khi mắc lỗi; biên dịch nhanh, chạy lẹ, sử dụng lại dễ dàng các thư viện viết C/C++, tính độc lập cao vì để code = Zig chỉ cần download 1 file zip về là đủ.
 
-2/ Các giải thuật được comment rõ ràng; code dễ hiểu, dễ bắt lỗi và dễ phát triển tiếp.
+2. Các giải thuật được comment rõ ràng; code dễ hiểu, dễ bắt lỗi và dễ phát triển tiếp.
 
-3/ Sự hiểu biết về ngôn ngữ tự nhiên là cái có sẵn trong mỗi chúng ta vậy nên kiến thức NLP nhiều khi không quan trọng bằng `trực giác`.
+3. Sự hiểu biết về ngôn ngữ tự nhiên là cái có sẵn trong mỗi chúng ta vậy nên kiến thức NLP nhiều khi không quan trọng bằng `trực giác`.
 
 Vậy nên cứ mạnh dạn tham gia nhé. Cụ thể hơn:
 
-> A/ Bạn muốn thứ gì đó thật đơn giản nhưng vẫn ✨ _fancy_ ✨ thì làm [word embedding](https://github.com/telexyz/embed). Bạn sẽ hiểu thêm về vector space model, re-distributed representation, hiểu cách cài đặp một neural network đơn giản để tạo ra word vectors từ text corpus trong chưa tới 200 dòng mã. Dựa trên word vectors có thể mở ra nhiều ứng dụng như topic embedding, document embedding, sense embedding ... và ứng dụng vào text classification, sentiment analysic, text mining và semantic search.
+* Bạn đã có kinh nghiệm lập trình thì vọc [tutu](https://github.com/telexyz/tutu) [engine](https://github.com/telexyz/engine). Là phần nền tảng có nhiều mẹo tối ưu các giải thuật kinh điển được cài đặt và may đo riêng cho tiếng Việt như tách và phân loại token thành Vietnamese vs non-Vietnamese, phân tích ngữ âm các token là âm tiết Tiếng Việt và định danh không dùng từ điển. Khi cần ép số lượng tokens xuống để làm nhẹ baseline thì nên làm thế nào? Với `16-bits` chúng ta nên định danh những gì (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn mà vẫn tiết kiệm tài nguyên? Với âm tiết là thành phần chủ đạo, nên làm inverted indexing dùng trong full-text-searh như thế nào? ... có nhiều thứ thú vị để khám phá.
 
-B/ Bạn đã có kinh nghiệm lập trình thì vọc [turbo](https://github.com/telexyz/turbo) [engine](https://github.com/telexyz/engine). Là phần nền tảng có nhiều mẹo tối ưu các giải thuật kinh điển được cài đặt và may đo riêng cho tiếng Việt như tách và phân loại token thành Vietnamese vs non-Vietnamese, phân tích ngữ âm các token là âm tiết Tiếng Việt và định danh không dùng từ điển. Khi cần ép số lượng tokens xuống để làm nhẹ baseline thì nên làm thế nào? Với `16-bits` chúng ta nên định danh những gì (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn mà vẫn tiết kiệm tài nguyên? Với âm tiết là thành phần chủ đạo, nên cài đặt language model hoặc làm inverted indexing dùng trong full-text-searh như thế nào? ... phần này hơi nhức đầu tí nhưng mà vui!
+* Quay lại thời sinh viên, học machine learning thật cơ bản và tìm hiểu những mô hình cỡ nhỏ để giải quyết bài toán đặc thù như tách từ, tách câu, thêm dấu ... xem [mlxs](https://github.com/telexyz/mlxs/issues)
 
-> C/ Bạn thích deep learning thì bắt đầu bằng [nnlm](https://github.com/telexyz/nnlm) - mô hình ngôn ngữ sử dụng mạng nơ-ron. Bạn có thể tìm hiểu và thử nghiệm Transformer hoặc các kiến trúc tinh gọn hơn như QRNN, SHA-QRNN, SRU++, RWKV-LM ...
+* Áp dụng mọi thứ đã tìm hiểu đc để cải tiến bộ gõ thông minh, giúp gõ song ngữ Việt - Anh dễ dàng hơn, trợ giúp người dùng đắc lực hơn [fingers-sublime](https://github.com/telexyz/fingers-sublime)
 
-D/ deep learning, large language models khiến ta thấy quá sức vì đòi hỏi phần cứng chuyên dụng, thời gian huấn luyện lâu, cần thu thập và tiền xử lý dữ liệu lớn ... ta có thể quay lại học lại machine learning thật cơ bản và tìm hiểu những mô hình cỡ nhỏ để giải quyết bài toán đặc thù như tách từ, tách câu, thêm dấu ... xem [mlxs](https://github.com/telexyz/mlxs/issues)
+- - -
 
-> E/ Cuối cùng áp dụng nh thứ tìm hiểu đc để cải tiến bộ gõ Telex để gõ song ngữ Việt - Anh dễ dàng hơn, bộ gõ thông hinh hơn, trợ giúp người dùng đắc lực hơn [fingers-sublime](https://github.com/telexyz/fingers-sublime)
+> Bạn muốn thứ gì đó thật đơn giản nhưng vẫn ✨ _fancy_ ✨ thì làm [word embedding](https://github.com/telexyz/embed). Bạn sẽ hiểu thêm về vector space model, re-distributed representation, hiểu cách cài đặp một neural network đơn giản để tạo ra word vectors từ text corpus trong chưa tới 200 dòng mã. Dựa trên word vectors có thể mở ra nhiều ứng dụng như topic embedding, document embedding, sense embedding ... và ứng dụng vào text classification, sentiment analysic, text mining và semantic search.
+
+> Bạn thích deep learning thì bắt đầu bằng [nnlm](https://github.com/telexyz/nnlm) - mô hình ngôn ngữ sử dụng mạng nơ-ron. Bạn có thể tìm hiểu và thử nghiệm Transformer hoặc các kiến trúc tinh gọn hơn như QRNN, SHA-QRNN, SRU++, RWKV-LM ...
