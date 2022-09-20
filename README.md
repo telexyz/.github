@@ -72,9 +72,9 @@ Welcome bạn. Ai cũng có thể tham gia được, không cần kiến thức 
 
 Vậy nên cứ mạnh dạn tham gia nhé. Cụ thể hơn:
 
-* Bạn đã có kinh nghiệm lập trình thì vọc [mau](https://github.com/telexyz/mau) + [engine](https://github.com/telexyz/engine). Là phần nền tảng có nhiều mẹo tối ưu các giải thuật kinh điển được cài đặt và may đo riêng cho tiếng Việt như tách và phân loại token thành Vietnamese vs non-Vietnamese, phân tích ngữ âm các token là âm tiết Tiếng Việt và định danh không dùng từ điển. Khi cần ép số lượng tokens xuống để làm nhẹ baseline thì nên làm thế nào? Với `16-bits` chúng ta nên định danh những gì (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn mà vẫn tiết kiệm tài nguyên? Với âm tiết là thành phần chủ đạo, nên làm inverted indexing dùng trong full-text-searh như thế nào? ... có nhiều thứ thú vị để khám phá.
+* Bạn đã có kinh nghiệm lập trình thì vọc [ngon](https://github.com/telexyz/ngon) + [engine](https://github.com/telexyz/engine). Là phần nền tảng có nhiều mẹo tối ưu các giải thuật kinh điển được cài đặt và may đo riêng cho tiếng Việt như tách và phân loại token thành Vietnamese vs non-Vietnamese, phân tích ngữ âm các token là âm tiết Tiếng Việt và định danh không dùng từ điển. Khi cần ép số lượng tokens xuống để làm nhẹ baseline thì nên làm thế nào? Với `16-bits` chúng ta nên định danh những gì (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn mà vẫn tiết kiệm tài nguyên? Với âm tiết là thành phần chủ đạo, nên làm inverted indexing dùng trong full-text-searh như thế nào? ... có nhiều thứ thú vị để khám phá.
 
-* Quay lại thời sinh viên, học machine learning thật cơ bản và tìm hiểu những mô hình cỡ nhỏ để giải quyết bài toán đặc thù như tách từ, tách câu, thêm dấu ... xem [mlxs](https://github.com/telexyz/mlxs/issues)
+* Quay lại thời sinh viên, học machine learning thật cơ bản và tìm hiểu những mô hình cỡ nhỏ để giải quyết bài toán đặc thù như tách từ, tách câu, thêm dấu ... xem [nem](https://github.com/telexyz/nem/issues)
 
 * Áp dụng mọi thứ đã tìm hiểu đc để cải tiến bộ gõ thông minh, giúp gõ song ngữ Việt - Anh dễ dàng hơn, trợ giúp người dùng đắc lực hơn [fingers-sublime](https://github.com/telexyz/fingers-sublime)
 
