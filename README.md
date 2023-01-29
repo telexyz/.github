@@ -1,12 +1,4 @@
-### Hi there 👋
-
-Lại là **Tuộc** đây và mời bạn cùng tham gia ✨ _hành trình_ ✨ áp dụng lập trình hệ thống, hiệu năng cao vào xử lý ngôn ngữ tiếng Việt và cải tiến bộ gõ Telex 🐙 🐙 🐙
-
-* Bạn thấy thích và tham gia liền thì bấm [vào đây](https://github.com/telexyz#t%C3%B4i-c%C3%B3-th%E1%BB%83-tham-gia-%C4%91%C6%B0%E1%BB%A3c-kh%C3%B4ng-v%C3%A0-n%C3%AAn-b%E1%BA%AFt-%C4%91%E1%BA%A7u-t%E1%BB%AB-%C4%91%C3%A2u)
-
-* Hoặc bỏ chút thời gian đọc phần hỏi đáp dưới đây nhé:
-
-- - -
+Mời bạn cùng tham gia ✨ _hành trình_ ✨ áp dụng lập trình hiệu năng cao vào xử lý ngôn ngữ tiếng Việt và cải tiến bộ gõ Telex 🐙 🐙 🐙
 
 ### `telexyz` nghĩa là gì?
 
@@ -57,7 +49,6 @@ Sau khi đã kết thúc quá trình thử nghiệm có thể chúng ta không d
 
 Xem `README.md` và `docs` của từng `repo` để biết thêm chi tiết.
 
-
 - - -
 
 ### Tôi có thể tham gia được không và nên bắt đầu từ đâu?
@@ -72,14 +63,14 @@ Welcome bạn. Ai cũng có thể tham gia được, không cần kiến thức 
 
 Vậy nên cứ mạnh dạn tham gia nhé. Cụ thể hơn:
 
-* Bạn đã có kinh nghiệm lập trình thì vọc [ngon](https://github.com/telexyz/ngon) + [engine](https://github.com/telexyz/engine). Là phần nền tảng có nhiều mẹo tối ưu các giải thuật kinh điển được cài đặt và may đo riêng cho tiếng Việt như tách và phân loại token thành Vietnamese vs non-Vietnamese, phân tích ngữ âm các token là âm tiết Tiếng Việt và định danh không dùng từ điển. Khi cần ép số lượng tokens xuống để làm nhẹ baseline thì nên làm thế nào? Với `16-bits` chúng ta nên định danh những gì (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn mà vẫn tiết kiệm tài nguyên? Với âm tiết là thành phần chủ đạo, nên làm inverted indexing dùng trong full-text-searh như thế nào? ... có nhiều thứ thú vị để khám phá.
+* Bạn đã có kinh nghiệm lập trình thì vọc [bon](https://github.com/telexyz/bon) + [engine](https://github.com/telexyz/engine). Là phần nền tảng có nhiều mẹo tối ưu các giải thuật kinh điển được cài đặt và may đo riêng cho tiếng Việt như tách và phân loại token thành Vietnamese vs non-Vietnamese, phân tích ngữ âm các token là âm tiết Tiếng Việt và định danh không dùng từ điển. Khi cần ép số lượng tokens xuống để làm nhẹ baseline thì nên làm thế nào? Với `16-bits` chúng ta nên định danh những gì (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn mà vẫn tiết kiệm tài nguyên? Với âm tiết là thành phần chủ đạo, nên làm inverted indexing dùng trong full-text-searh như thế nào? ... có nhiều thứ thú vị để khám phá.
 
-* Quay lại thời sinh viên, học machine learning thật cơ bản và tìm hiểu những mô hình cỡ nhỏ để giải quyết bài toán đặc thù như tách từ, tách câu, thêm dấu ... xem [nem](https://github.com/telexyz/nem/issues)
+* Quay lại thời sinh viên, học machine learning và những thứ khác thật cơ bản [nem](https://github.com/telexyz/nem)
 
-* Áp dụng mọi thứ đã tìm hiểu đc để cải tiến bộ gõ thông minh, giúp gõ song ngữ Việt - Anh dễ dàng hơn, trợ giúp người dùng đắc lực hơn [fingers-sublime](https://github.com/telexyz/fingers-sublime)
+* Áp dụng mọi thứ đã tìm hiểu đc để cải tiến bộ gõ thông minh, giúp gõ song ngữ Việt - Anh dễ dàng hơn, trợ giúp người dùng đắc lực hơn [bon-sublime](https://github.com/telexyz/bon-sublime)
 
 - - -
 
 > Bạn muốn thứ gì đó thật đơn giản nhưng vẫn ✨ _fancy_ ✨ thì làm [word embedding](https://github.com/telexyz/embed). Bạn sẽ hiểu thêm về vector space model, re-distributed representation, hiểu cách cài đặp một neural network đơn giản để tạo ra word vectors từ text corpus trong chưa tới 200 dòng mã. Dựa trên word vectors có thể mở ra nhiều ứng dụng như topic embedding, document embedding, sense embedding ... và ứng dụng vào text classification, sentiment analysic, text mining và semantic search.
 
-> Bạn thích deep learning thì bắt đầu bằng [nnlm](https://github.com/telexyz/nnlm) - mô hình ngôn ngữ sử dụng mạng nơ-ron. Bạn có thể tìm hiểu và thử nghiệm Transformer hoặc các kiến trúc tinh gọn hơn như QRNN, SHA-QRNN, SRU++, RWKV-LM ...
+> Bạn thích deep learning thì bắt đầu bằng [mô hình ngôn ngữ lớn thuần Việt](https://github.com/telexyz/symato)
