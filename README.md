@@ -26,25 +26,6 @@ Muốn có kết quả ngay thì bạn nên dùng thư viện có sẵn, có nhi
 
 - - -
 
-### Tiêu chí của dự án là gì?
-
-Tối ưu `hiệu năng = độ chính xác / công sức cài đặt * độ tốn kém phần cứng khi chạy giải thuật`. Nếu bỏ ra 1 tháng trời để cài đặt hóc búa hoặc bỏ vài ngàn đô để mua phần để độ chính xác tăng lên 5% chẳng hạn thì hẳn đã là tốt, trừ trường hợp mục tiêu của bạn là độ chính xác.
-
-Trong quá trình triển khai ứng dụng nhiều lúc phải loay hoay với những bài toán con phát sinh. Nếu giải thuật khó hiểu, cài đặt phức tạp, chạy trên phần cứng thông thường mất nhiều thời gian thì sẽ gây ra nhiều cản trở cho quá trình #thử_sai. Thời gian chạy càng ngắn, code càng dễ hiểu ta; càng thử sai được nhiều lần và rút kinh nghiệm nhanh hơn.
-
-Như vậy, có trong tay một baseline ✨ ĐỦ TỐT ✨ là một vũ khí rất quan trọng.
-
-- - -
-
-### Baseline đủ tốt là gì?
-
-Baseline là các giải thuật dễ hiểu và dễ cài đặt, kết quả đủ tốt và hiệu năng cao. Vì dễ hiểu, đơn giản, và hiệu năng cao nên có thể chỉnh sửa, cải tiến, chạy thử nghiệm liên tục mà không phải chờ đợi hàng giờ, hàng ngày, hàng tuần ... hoặc vò đầu bứt tai vì không hiểu đoạn code này làm gì và nên chỉnh sửa thế nào.
-
-Sau khi đã kết thúc quá trình thử nghiệm có thể chúng ta không dùng trực tiếp baseline nhưng đó vẫn là dấu mốc để xem chúng ta đã đi được bao xa và liệu bỏ ra thêm công sức và tiền bạc để cài đặt hoặc triển khai một giải thuật mới có đáng hay không? Baseline tốt sẽ giúp trả lời câu hỏi CÓ ĐÁNG HAY KHÔNG đó nhanh chóng, chính xác!
-
-
-- - -
-
 ### Tiến độ tới đâu rồi Tuộc?
 
 Xem `README.md` và `docs` của từng `repo` để biết thêm chi tiết.
