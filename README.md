@@ -1,10 +1,10 @@
-Mời bạn cùng tham gia ✨ _hành trình_ ✨ áp dụng lập trình hiệu năng cao vào xử lý ngôn ngữ tiếng Việt và cải tiến bộ gõ Telex 🐙 🐙 🐙
+Mời bạn cùng tham gia ✨ _hành trình_ ✨ áp dụng lập trình hiệu năng cao vào xử lý ngôn ngữ tiếng Việt và cải tiến bộ gõ Telex
 
 ### `telexyz` nghĩa là gì?
 
 `telexyz` nghĩa là bắt đầu ở bộ gõ tiếng Việt (`telex`) và gia tăng giá trị cho nó (`xyz`):
 
-Người dùng tương tác mới máy tính chủ yếu qua bàn phím. Và Telex là kiểu gõ tiếng Việt phổ biến nhất. Làm NLP hiệu quả nên khai thác ngay điểm khởi của dữ liệu - là khi người dùng đang gõ bàn phím. Chẳng hạn có thể áp dụng dự đoán từ, sửa chính tả ngay trong lúc người dùng đang gõ không? Làm thế nào để vừa gõ tiếng Việt vừa gõ tiếng Anh hiệu quả? Có thể gõ không dấu và máy tính tự bỏ dấu tiếng Việt không? ...
+Người dùng tương tác mới máy tính chủ yếu qua bàn phím. Và Telex là kiểu gõ tiếng Việt phổ biến nhất. Làm NLP hiệu quả nên khai thác ngay điểm khởi đầu của dữ liệu - là khi người dùng đang gõ bàn phím. Chẳng hạn có thể áp dụng dự đoán từ, sửa chính tả ngay trong lúc người dùng đang gõ không? Làm thế nào để vừa gõ tiếng Việt vừa gõ tiếng Anh hiệu quả? Có thể gõ không dấu và máy tính tự bỏ dấu tiếng Việt không? ...
 
 Nếu làm killer apps cho tiếng Việt thì bộ gõ chắc chắn là lựa chọn số 1 vì ai cũng phải dùng.
 
@@ -63,14 +63,8 @@ Welcome bạn. Ai cũng có thể tham gia được, không cần kiến thức 
 
 Vậy nên cứ mạnh dạn tham gia nhé. Cụ thể hơn:
 
+* Bạn thích deep learning thì bắt đầu bằng [mô hình ngôn ngữ lớn thuần Việt](https://github.com/telexyz/symato)
+
 * Bạn đã có kinh nghiệm lập trình thì vọc [bon](https://github.com/telexyz/bon) + [engine](https://github.com/telexyz/engine). Là phần nền tảng có nhiều mẹo tối ưu các giải thuật kinh điển được cài đặt và may đo riêng cho tiếng Việt như tách và phân loại token thành Vietnamese vs non-Vietnamese, phân tích ngữ âm các token là âm tiết Tiếng Việt và định danh không dùng từ điển. Khi cần ép số lượng tokens xuống để làm nhẹ baseline thì nên làm thế nào? Với `16-bits` chúng ta nên định danh những gì (âm tiết, từ 2 âm tiết, từ 3 âm tiết ...) để các bước xử lý tiếp theo được thuận lợi hơn mà vẫn tiết kiệm tài nguyên? Với âm tiết là thành phần chủ đạo, nên làm inverted indexing dùng trong full-text-searh như thế nào? ... có nhiều thứ thú vị để khám phá.
 
-* Quay lại thời sinh viên, học machine learning và những thứ khác thật cơ bản [nem](https://github.com/telexyz/nem)
-
 * Áp dụng mọi thứ đã tìm hiểu đc để cải tiến bộ gõ thông minh, giúp gõ song ngữ Việt - Anh dễ dàng hơn, trợ giúp người dùng đắc lực hơn [bon-sublime](https://github.com/telexyz/bon-sublime)
-
-- - -
-
-> Bạn muốn thứ gì đó thật đơn giản nhưng vẫn ✨ _fancy_ ✨ thì làm [word embedding](https://github.com/telexyz/embed). Bạn sẽ hiểu thêm về vector space model, re-distributed representation, hiểu cách cài đặp một neural network đơn giản để tạo ra word vectors từ text corpus trong chưa tới 200 dòng mã. Dựa trên word vectors có thể mở ra nhiều ứng dụng như topic embedding, document embedding, sense embedding ... và ứng dụng vào text classification, sentiment analysic, text mining và semantic search.
-
-> Bạn thích deep learning thì bắt đầu bằng [mô hình ngôn ngữ lớn thuần Việt](https://github.com/telexyz/symato)
